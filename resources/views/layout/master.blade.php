@@ -248,11 +248,11 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/palindrome" class="nav-link">
+            <a href="/destination" class="nav-link">
             {{-- <a href="pages/widgets.html" class="nav-link"> --}}
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Palindrome
+                Destination
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
