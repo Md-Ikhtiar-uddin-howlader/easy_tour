@@ -1,5 +1,5 @@
 @extends('layout.master')
-  {{-- haris --}}
+@include('layout.top-navbar')
 
   @section('content')
   <!-- Content Wrapper. Contains page content -->
@@ -607,4 +607,3 @@
     <!-- /.content -->
   </div>
 
-  {{-- haris --}}

@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -11,7 +6,7 @@ p {margin: 0;}
 html, body{
    font-family: 'Montserrat', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background:rgb(0, 0, 0) !important;
 }
 body a{
 	transition:0.5s all;
@@ -21,7 +16,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .header{
-	background:#fff;
+	background:rgb(0, 0, 0);
 	padding:0;
 	margin-left: 16em;
 }
@@ -65,7 +60,7 @@ body a{
 }
 .menu li a:hover ,.menu li.active a{
 	 color:#F19E1F;
-} 
+}
 #nav .current a {
 	 color:red;
 }
@@ -75,8 +70,8 @@ body a{
 }
 .nav:before,
 .nav:after {
-    content: " "; 
-    display: table; 
+    content: " ";
+    display: table;
 }
 .nav:after {
     clear: both;
@@ -118,7 +113,7 @@ body a{
     	top:15px;
     }
     .nav li ul{
-    	width:100%;   	
+    	width:100%;
     }
     .menu ul{
     	margin:0;
@@ -166,7 +161,7 @@ body a{
 	left: 0px;
 	border: none;
 	outline: none;
-	background:#F19E1F;
+	background:#d81b60;
 	width: 83%;
 	height:71px;
 	margin: 0;
@@ -182,7 +177,7 @@ body a{
 	color: #ffffff;
 }
 .sb-search-input::-moz-placeholder {
-	color: #efb480;
+	color: #d81b60;
 }
 .sb-search-input:-ms-input-placeholder {
 	color: #ffffff;
@@ -239,8 +234,8 @@ body a{
 	font-size: 0.85em;
 }
 /* Login Button */
-#loginButton { 
-    display:inline-block;  
+#loginButton {
+    display:inline-block;
     position:relative;
     z-index:30;
     cursor:pointer;
@@ -360,7 +355,7 @@ a#loginButton img {
 	vertical-align: bottom;
 }
 .banner{
-	background: url(../images/banner.jpg) no-repeat center top;
+	background: url("dist/destination-images/banner.jpg") no-repeat center top;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -368,6 +363,7 @@ a#loginButton img {
 	min-height:410px;
 	text-align:center;
 	padding-top:3em;
+    padding-bottom: 3em;
 }
 .container_wrap{
 	margin:0 auto;
@@ -377,7 +373,7 @@ a#loginButton img {
 	margin-bottom: 1em;
 }
 .banner h1{
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 2em;
 	font-weight: 500;
 	margin-bottom: 1em;
@@ -394,7 +390,7 @@ a#loginButton img {
 	outline: none;
 	font-size: 1.1em;
 	padding: 17px;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	width: 47%;
 	text-transform: lowercase;
 	border-radius: 100px;
@@ -439,15 +435,15 @@ a#loginButton img {
 	display:inline-block;
 }
 .flat{
-	position: relative;	
+	position: relative;
 	cursor: pointer;
 	font-weight:600;
 	background:rgba(111, 111, 111, 0.17);
 	color:#898989;
-	border-radius:100px;	
-	-webkit-border-radius:100px;	
-	-moz-border-radius:100px;	
-	-o-border-radius:100px;	
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
@@ -481,7 +477,7 @@ a#loginButton img {
 	height: 100%;
 	opacity: 0;
 }
-/* SELECTED FEEDBACK ITEM */ 
+/* SELECTED FEEDBACK ITEM */
 .flat .selected {
     color:#fff;
 }
@@ -667,7 +663,7 @@ a#loginButton img {
 /*--content--*/
 .content_top{
 	background:#fff;
-	padding:13px 0 5px;
+	padding-top:2em;
 	border-bottom: 1px solid #E6E5E5;
 }
 .content_menu ul{
@@ -690,15 +686,15 @@ a#loginButton img {
 	color:#F19E1F;
 }
 .metro{
-	position: relative;	
+	position: relative;
 	cursor: pointer;
 	font-weight:600;
 	background:#fff;
 	color:#898989;
-	border-radius:100px;	
-	-webkit-border-radius:100px;	
-	-moz-border-radius:100px;	
-	-o-border-radius:100px;	
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
@@ -732,7 +728,7 @@ a#loginButton img {
 	height: 100%;
 	opacity: 0;
 }
-/* SELECTED FEEDBACK ITEM */ 
+/* SELECTED FEEDBACK ITEM */
 .metro .selected {
     color:#F19E1F;
 }
@@ -984,7 +980,7 @@ i.b_home1{
 }
 .content_middle{
 	background:#f3f1f2;
-	
+
 }
 .view {
    overflow: hidden;
@@ -1476,6 +1472,7 @@ ul.service_grid li.desc1 p{
 .footer{
 	background: url(../images/footer.jpg) no-repeat center top;
 	background-size: cover;
+    background-color:rgb(0, 0, 0);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1935,7 +1932,7 @@ i.icon-tick{
 i.icon-audio{
 	width:32px;
 	height:37px;
-	background:url(../images/img-sprite.png)-257px -256px; 
+	background:url(../images/img-sprite.png)-257px -256px;
 	float:left;
 	margin-right:1em;
 }
@@ -2005,12 +2002,12 @@ p.educate {
 .grid_box .zoom-icon {
 	top: -50px;
 	width:100%;
-	height: 182px;	
+	height: 182px;
 }
 .grid_box a:hover .zoom-icon {
 	top: 0;
 	opacity: 1;
-	filter: alpha(opacity=99); 
+	filter: alpha(opacity=99);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
 }
 .entertain_box{
@@ -2368,7 +2365,7 @@ ul.popular li a {
 }
 .sb-search {
 	right:-15px;
-}	
+}
 .banner h1 {
 	font-size: 1.5em;
 }
@@ -2802,7 +2799,7 @@ ul.vision {
 i.home, i.home1, i.home2 {
 	right: 170px;
 	bottom: 83px;
-}	
+}
 i.b_home, i.b_home1 {
 	bottom: 125px;
 	right:180px;

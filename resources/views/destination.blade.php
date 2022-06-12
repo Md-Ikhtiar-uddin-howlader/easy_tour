@@ -1,14 +1,15 @@
-@extends('layout.master')
-  {{-- haris --}}
-
     <!DOCTYPE HTML>
     <html>
+
+    @extends('layout.master')
+    @include('layout.top-navbar')
+
     <head>
     <title>Hotel  A Hotel category Flat bootstrap Responsive  Website Template | Rooms :: w3layouts</title>
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="{{ asset('dist\css\destination\bootstrap.css') }}" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Custom Theme files -->
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="{{ asset('dist\css\destination\style.css') }}" rel='stylesheet' type='text/css' />
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,299 +18,204 @@
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!--webfont-->
     <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/login.js"></script>
-    <script src="js/jquery.easydropdown.js"></script>
-    <script src="js/wow.min.js"></script>
-    <link href="css/animate.css" rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="{{ asset('dist\js\destination.js\jquery-1.11.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('dist\js\destination.js\login.js') }}"></script>
+    <script src="{{ asset('dist\js\destination.js\jquery.easydropdown.js') }}"></script>
+    <script src="{{ asset('dist\js\destination.js\wow.min.js') }}"></script>
+    <link href="{{ asset('dist\css\destination\animate.css') }}" rel='stylesheet' type='text/css' />
     <script>
         new WOW().init();
     </script>
     </head>
+
     <body>
-    <div class="header">
-            <div class="col-sm-8 header-left">
-                        <div class="logo">
-                            <a href="index.html"><img src="images/logo.png" alt=""/></a>
-                        </div>
-                        <div class="menu">
-                            <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
-                                <ul class="nav" id="nav">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="active"><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="news.html">News</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="404.html">Blog</a></li>
-                                    <div class="clearfix"> </div>
-                                </ul>
-                                <script type="text/javascript" src="js/responsive-nav.js"></script>
-                        </div>
-                        <!-- start search-->
-                        <div class="search-box">
-                                <div id="sb-search" class="sb-search">
-                                    <form>
-                                        <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
-                                        <input class="sb-search-submit" type="submit" value="">
-                                        <span class="sb-icon-search"> </span>
-                                    </form>
-                                </div>
-                            </div>
-                            <!----search-scripts---->
-                            <script src="js/classie.js"></script>
-                            <script src="js/uisearch.js"></script>
-                            <script>
-                                new UISearch( document.getElementById( 'sb-search' ) );
-                            </script>
-                            <!----//search-scripts---->
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="col-sm-4 header_right">
-                        <div id="loginContainer"><a href="#" id="loginButton"><img src="images/login.png"><span>Login</span></a>
-                                <div id="loginBox">
-                                    <form id="loginForm">
-                                            <fieldset id="body">
-                                                <fieldset>
-                                                    <label for="email">Email Address</label>
-                                                    <input type="text" name="email" id="email">
-                                                </fieldset>
-                                                <fieldset>
-                                                        <label for="password">Password</label>
-                                                        <input type="password" name="password" id="password">
-                                                </fieldset>
-                                                <input type="submit" id="login" value="Sign in">
-                                                <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
-                                            </fieldset>
-                                            <span><a href="#">Forgot your password?</a></span>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="clearfix"> </div>
-        </div>
         <div class="banner">
-        <div class="container_wrap">
-            <h1>What are you looking for?</h1>
-            <div class="dropdown-buttons">
+            <div class="container_wrap">
+              <h1>Where's your next adventure?</h1>
+                 <div class="dropdown-buttons">
+                         <div class="dropdown-button">
+                           <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+                           <option selected="selected" value="0">Dubai</option>
+                           <option value="1">Australia</option>
+                           <option value="2">Malaysia</option>
+                           <option value="3">Netherlands</option>
+                           <option value="4">Singapore</option>
+                           <option value="5">United Kingdom</option>
+                           <option value="6">United states</option>
+                           <option value="7">Germany</option>
+                           <option value="8">Switzerland</option>
+                         </select>
+                       </div>
                         <div class="dropdown-button">
-                            <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                            <option value="0">Dubai</option>
-                            <option value="1">Australia</option>
-                            <option value="2">Sri Lanka</option>
-                            <option value="3"> New Zealand</option>
-                            <option value="4">Pakistan</option>
-                            <option value="5">United Kingdom</option>
-                            <option value="6">United states</option>
-                            <option value="7">Russia</option>
-                            <option value="8">Mirum</option>
-                        </select>
+                         <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+                            <option value="0">All</option>
+                           <option selected="selected" value="1">Hotels</option>
+                           <option value="2">Apartments</option>
+                           <option value="3">Resorts</option>
+                           <option value="4">Villa</option>
+                           <option value="5">Cabin</option>
+                           <option value="6">Cottages</option>
+                         </select>
                         </div>
-                        <div class="dropdown-button">
+                    </div>
+                <div class="dropdown-buttons">
+                    <div class="dropdown-button">
                         <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                            <option value="0">Hotels</option>
-                            <option value="1">tempor</option>
-                            <option value="2">congue</option>
-                            <option value="3">maxim </option>
-                            <option value="4">mutationem</option>
-                            <option value="5">hendrerit </option>
-                            <option value="5"></option>
-                            <option value="5"></option>
+                            <option value="0">All</option>
+                            <option selected="selected" value="1">Tour</option>
+                            <option value="2">Family</option>
+                            <option value="3">Couples</option>
+                            <option value="4">Travel </option>
+                            <option value="5">Business</option>
                         </select>
-                        </div>
                     </div>
-                <form>
-                    <input type="text" value="Keyword, name, date, ..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Keyword, name, date, ...';}">
-                    <div class="contact_btn">
-                    <label class="btn1 btn-2 btn-2g"><input name="submit" type="submit" id="submit" value="Search"></label>
+                    <div class="dropdown-button">
+                        <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+                            <option value="0">All</option>
+                            <option selected="selected" value="1">5 Stars</option>
+                            <option value="2">4 Stars</option>
+                            <option value="3">3 Stars</option>
+                        </select>
                     </div>
-                </form>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <div class="content_top">
-        <div class="container">
-            <div class="col-md-4 bottom_nav">
-            <div class="content_menu">
-                    <ul>
-                        <li class="active"><a href="#">Recommended</a></li>
-                        <li><a href="#">Latest</a></li>
-                        <li><a href="#">Highlights</a></li>
-                    </ul>
                 </div>
+               <form>
+                   <input type="text" value="Keyword, name, date, ..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Keyword, name, date, ...';}">
+                   <div class="contact_btn">
+                      <label class="btn1 btn-2 btn-2g"><input name="submit" type="submit" id="submit" value="Search"></label>
+                   </div>
+               </form>
+                  <div class="clearfix"> </div>
             </div>
-            <div class="col-md-4 content_dropdown1">
-            <div class="content_dropdown">
-                <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
-                            <option value="0">Dubai</option>
-                            <option value="1">tempor</option>
-                            <option value="2">congue</option>
-                            <option value="3">maxim </option>
-                            <option value="4">mutationem</option>
-                            <option value="5">hendrerit </option>
-                            <option value="5"></option>
-                            <option value="5"></option>
-                    </select>
+       </div>
+         <div class="content_top">
+            <div class="container">
+              <div class="col-md-4 bottom_nav">
+                 <div class="content_menu">
+                   <ul>
+                       <li class="active"><a href="#">Recommended</a></li>
+                       <li><a href="#">Latest</a></li>
+                       <li><a href="#">Highlights</a></li>
+                   </ul>
+               </div>
+           </div>
+           {{-- <div class="col-md-4 content_dropdown1">
+              <div class="content_dropdown">
+                  <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
+                           <option value="0">All</option>
+                           <option value="1">Tour</option>
+                           <option value="2">Family</option>
+                           <option value="3">Couples</option>
+                           <option value="4">Travel </option>
+                           <option value="5">Business</option>
+                   </select>
                 </div>
-                <div class="content_dropdown">
-                <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
-                            <option value="0">Show Map</option>
-                            <option value="1">tempor</option>
-                            <option value="2">congue</option>
-                            <option value="3">maxim </option>
-                            <option value="4">mutationem</option>
-                            <option value="5">hendrerit </option>
-                            <option value="5"></option>
-                            <option value="5"></option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-md-4 filter_grid">
-                <ul class="filter">
-                    <li class="fil">Filter :</li>
-                    <li><a href=""> <i class="icon1"> </i> </a></li>
-                    <li><a href=""> <i class="icon2"> </i> </a></li>
-                    <li><a href=""> <i class="icon3"> </i> </a></li>
-                    <li><a href=""> <i class="icon4"> </i> </a></li>
-                    <li><a href=""> <i class="icon5"> </i> </a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+                {{-- <div class="content_dropdown">
+                  <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
+                           <option value="0">All</option>
+                           <option value="1">Urban</option>
+                           <option value="2">Suburban</option>
+                           <option value="4">Extremes</option>
+                           <option value="5">hendrerit </option>
+                   </select>
+                  </div> --}}
+           </div> --}}
+           {{-- <div class="col-md-4 filter_grid">
+               <ul class="filter">
+                   <li class="fil">Filter :</li>
+                   <li><a href=""> <i class="icon1"> </i> </a></li>
+                   <li><a href=""> <i class="icon2"> </i> </a></li>
+                   <li><a href=""> <i class="icon3"> </i> </a></li>
+                   <li><a href=""> <i class="icon4"> </i> </a></li>
+                   <li><a href=""> <i class="icon5"> </i> </a></li>
+               </ul>
+           </div>
+          </div> --}}
+      </div>
+
     <div class="living_middle">
         <div class="container">
-                <h2 class="title block-title">Luxury Rooms</h2>
+                <h2 class="title block-title">Available Packages</h2>
             <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="living_box"><a href="#">
-                    <img src="images/l1.jpg" class="img-responsive" alt=""/>
+                    <img src="{{ asset('dist\destination-images\e4.jpg') }}" class="img-responsive" alt=""/>
                     <span class="sale-box">
-                    <span class="sale-label">Rooms</span>
+                    <span class="sale-label">HOTEL</span>
                     </span>
                     </a>
                     <div class="living_desc">
-                    <h3><a href="#">aliquam volutp</a></h3>
-                    <p>Lorem ipsum consectetuer adipiscing </p>
-                    <a href="single.html" class="btn3">Rent</a>
-                    <p class="price">$100.00</p>
+                    <h3><a href="#">Carlton Hotel</a></h3>
+                    <p>Stay in the heart of Dubai. Housed with the best facilities, you'll be sure to have the best visit to Dubai.</p>
+                    <a href="single.html" class="btn3">Book</a>
+                    <p class="price">RM2,700.00/night</p>
                     </div>
                     <table border="1" class="propertyDetails">
                     <tbody><tr>
-                    <td><img src="images/area.png" alt="" style="margin-right:7px;">2,412m</td>
-                    <td><img src="images/bed.png" alt="" style="margin-right:7px;">6 Beds</td>
-                    <td><img src="images/drop.png" alt="" style="margin-right:7px;">3 Baths</td>
+                    <td><img src="{{ asset('dist\destination-images\area.png') }}" alt="" style="margin-right:7px;">2,412m</td>
+                    <td><img src="{{ asset('dist\destination-images\bed.png') }}" alt="" style="margin-right:7px;">6 Beds</td>
+                    <td><img src="{{ asset('dist\destination-images\drop.png') }}" alt="" style="margin-right:7px;">3 Baths</td>
                         </tr>
                     </tbody></table>
                 </div>
             </div>
             <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="living_box"><a href="#">
-                    <img src="images/l2.jpg" class="img-responsive" alt=""/>
+                    <img src="{{ asset('dist\destination-images\e3.jpg') }}" class="img-responsive" alt=""/>
                     <span class="sale-box">
-                    <span class="sale-label">Rooms</span>
+                    <span class="sale-label">RESORT</span>
                     </span>
                     </a>
                     <div class="living_desc">
-                    <h3><a href="#">aliquam volutp</a></h3>
-                    <p>Lorem ipsum consectetuer adipiscing </p>
-                    <a href="single.html" class="btn3">Rent</a>
-                    <p class="price">$89.00</p>
+                    <h3><a href="#">Hilton Resort</a></h3>
+                    <p>Provides 5-stars accomadation. Highly rated for family trips with in-house specialties. </p>
+                    <a href="single.html" class="btn3">Book</a>
+                    <p class="price">RM1,890.00/night</p>
                     </div>
                     <table border="1" class="propertyDetails">
                     <tbody><tr>
-                    <td><img src="images/area.png" alt="" style="margin-right:7px;">2,412m</td>
-                    <td><img src="images/bed.png" alt="" style="margin-right:7px;">6 Beds</td>
-                    <td><img src="images/drop.png" alt="" style="margin-right:7px;">3 Baths</td>
+                    <td><img src="{{ asset('dist\destination-images\area.png') }}" alt="" style="margin-right:7px;">1,795m</td>
+                    <td><img src="{{ asset('dist\destination-images\bed.png') }}" alt="" style="margin-right:7px;">4 Beds</td>
+                    <td><img src="{{ asset('dist\destination-images\drop.png') }}" alt="" style="margin-right:7px;">2 Baths</td>
                         </tr>
                     </tbody></table>
                 </div>
             </div>
             <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="living_box"><a href="#">
-                    <img src="images/l3.jpg" class="img-responsive" alt=""/>
+                    <img src="{{ asset('dist\destination-images\l1.jpg') }}" class="img-responsive" alt=""/>
                     <span class="sale-box">
-                    <span class="sale-label">Rooms</span>
+                    <span class="sale-label">VILLA</span>
                     </span>
                     </a>
                     <div class="living_desc">
-                    <h3><a href="#">aliquam volutp</a></h3>
-                    <p>Lorem ipsum consectetuer adipiscing </p>
-                    <a href="single.html" class="btn3">Rent</a>
-                    <p class="price">$100.00</p>
+                    <h3><a href="#">Golden Palace Villa</a></h3>
+                    <p>The ideal travel spot for beach enthusiasts. An 11-minute walk from Aquavanture Beach and 0.7 miles from Nasimi Beach.</p>
+                    <a href="single.html" class="btn3">Book</a>
+                    <p class="price">RM1,450.00/night</p>
                     </div>
                     <table border="1" class="propertyDetails">
                     <tbody><tr>
-                    <td><img src="images/area.png" alt="" style="margin-right:7px;">2,412m</td>
-                    <td><img src="images/bed.png" alt="" style="margin-right:7px;">6 Beds</td>
-                    <td><img src="images/drop.png" alt="" style="margin-right:7px;">3 Baths</td>
+                    <td><img src="{{ asset('dist\destination-images\area.png') }}" alt="" style="margin-right:7px;">1,462m</td>
+                    <td><img src="{{ asset('dist\destination-images\bed.png') }}" alt="" style="margin-right:7px;">3 Beds</td>
+                    <td><img src="{{ asset('dist\destination-images\drop.png') }}" alt="" style="margin-right:7px;">1 Baths</td>
                         </tr>
                     </tbody></table>
                 </div>
             </div>
             </div>
     </div>
-    <div class="living_bottom">
-        <div class="container">
-            <h2 class="title block-title">Latest Posts</h2>
-            <div class="col-md-6 post_left wow fadeInLeft" data-wow-delay="0.4s">
-                <div class="mask1"><img src="images/pic4.jpg" alt="image" class="img-responsive zoom-img" /></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus, sem eget sagittis sagittis, nisl magna sodales eros, ut feugiat velit velit non turpis. Cras eu nibh dapibus justo fringilla   <a href="single.html">More</a></p>
-                <div class="divider"></div>
-                <p class="field-content">30 Sep 2015</span></p>
-            </div>
-            <div class="col-md-6 post_left wow fadeInRight" data-wow-delay="0.4s">
-                <div class="mask1"><img src="images/pic5.jpg" alt="image" class="img-responsive zoom-img" /></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus, sem eget sagittis sagittis, nisl magna sodales eros, ut feugiat velit velit non turpis. Cras eu nibh dapibus justo fringilla   <a href="single.html">More</a></p>
-                <div class="divider"></div>
-                <p class="field-content">30 Sep 2015</span></p>
-            </div>
-        </div>
-    </div>
+
     <div class="footer">
         <div class="container">
         <div class="footer_top">
         <h3>Subscribe to our newsletter</h3>
         <form>
             <span>
-                <i><img src="images/mail.png" alt=""></i>
+                <i><img src="{{ asset('dist\destination-images\mail.png') }}" alt=""></i>
                 <input type="text" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
                 <label class="btn1 btn2 btn-2 btn-2g"> <input name="submit" type="submit" id="submit" value="Subscribe"> </label>
                 <div class="clearfix"> </div>
             </span>
         </form>
-        </div>
-        <div class="footer_grids">
-            <div class="footer-grid">
-                <h4>Ipsum Quis</h4>
-                <ul class="list1">
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">Mirum est</a></li>
-                    <li><a href="#">Placerat facer</a></li>
-                    <li><a href="#">Claritatem</a></li>
-                    <li><a href="#">Sollemnes </a></li>
-                </ul>
-            </div>
-            <div class="footer-grid">
-                <h4>Quis Ipsum</h4>
-                <ul class="list1">
-                    <li><a href="#">Placerat facer</a></li>
-                    <li><a href="#">Claritatem</a></li>
-                    <li><a href="#">Sollemnes </a></li>
-                    <li><a href="#">Claritas</a></li>
-                    <li><a href="#">Mirum est</a></li>
-                </ul>
-            </div>
-            <div class="footer-grid last_grid">
-                <h4>Follow Us</h4>
-                <ul class="footer_social wow fadeInLeft" data-wow-delay="0.4s">
-                <li><a href=""> <i class="fb"> </i> </a></li>
-                <li><a href=""><i class="tw"> </i> </a></li>
-                <li><a href=""><i class="google"> </i> </a></li>
-                <li><a href=""><i class="u_tube"> </i> </a></li>
-                </ul>
-                <div class="copy wow fadeInRight" data-wow-delay="0.4s">
-                <p> &copy; 2016 Hotel Deluxe. All rights reserved | Design <a href="http://w3layouts.com/">W3layouts</a></p>
-                </div>
-            </div>
-            <div class="clearfix"> </div>
         </div>
         </div>
     </div>
