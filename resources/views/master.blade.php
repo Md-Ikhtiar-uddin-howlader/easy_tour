@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Easy Tour</title>
     <link rel="stylesheet" href="{{ asset('dist\css\home.css') }}">
+    <link rel="stylesheet" href="{{ asset('dist\css\contact.css') }}">
+    <link rel="stylesheet" href="{{ asset('dist\css\about.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+
 </head>
 <body style="background-color: bisque">
 
@@ -21,7 +23,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home">Home</a>
+                <a class="nav-link active" aria-current="page" href="tour">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="destination">Destination</a>
@@ -30,10 +32,10 @@
                 <a class="nav-link" href="booking">Booking</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="payment">About Us</a>
+                <a class="nav-link" href="about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact">Contact Us</a>
               </li>
 
             </ul>

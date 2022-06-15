@@ -1,0 +1,140 @@
+.Contact{
+    width: auto;
+    background: #fff;
+
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .Contact .Content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Contact .Content .left-side{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .Content .left-side::before{
+      content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #414142;
+  }
+  .Content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .Content .left-side .details i{
+    font-size: 30px;
+    color: #0e3e85;
+    margin-bottom: 10px;
+  }
+  .Content .left-side .details .topic{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Content .left-side .details .text-one,
+  .Content .left-side .details .text-two{
+    font-size: 14px;
+    color: #000000;
+  }
+  .Contact .Content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .Content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #0e3e85;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 70%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+
+  /
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+
+  .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #0e3e85;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .button input[type="button"]:hover{
+    background: #317205;
+  }
+
+  @media (max-width: 950px) {
+    .Contact{
+      width: 90%;
+      padding: 30px 40px 40px 35px ;
+    }
+    .Contact .Content .right-side{
+     width: 75%;
+     margin-left: 55px;
+  }
+  }
+  @media (max-width: 820px) {
+    .Contact{
+      margin: 40px 0;
+      height: 100%;
+    }
+    .Contact .Content{
+      flex-direction: column-reverse;
+    }
+   .Contact .Content .left-side{
+     width: 100%;
+     flex-direction: row;
+     margin-top: 40px;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+   .Contact .Content .left-side::before{
+     display: none;
+   }
+   .Contact .Content .right-side{
+     width: 100%;
+     margin-left: 0;
+   }
+  }

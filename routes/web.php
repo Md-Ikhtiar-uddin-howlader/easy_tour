@@ -1,11 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TourController;
 use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\SuccessfulController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AboutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,18 +20,20 @@ use App\Http\Controllers\SuccessfulController;
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('home');
 });
 
 // Route::get('home', function () {
 //     return view('home');
 // });
 
-Route::get('/home', [HomeController::class, 'index']);
+Route::get('/tour', [TourController::class, 'index']);
 Route::get('/destination', [DestinationController::class, 'index']);
 Route::get('/booking', [BookingController::class, 'index']);
 Route::get('/payment', [PaymentController::class, 'index']);
 Route::get('/successful', [SuccessfulController::class, 'index']);
+Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index']);
 
 Route::resource('/booking', BookingController::class);
 
@@ -38,3 +42,9 @@ Route::resource('/booking', BookingController::class);
 // });
 
 
+
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -1,0 +1,23 @@
+.about{
+    height: 800px;
+    width: 100%;
+    background-image: url("../aboutimage/aaaa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+
+}
+.about h1{
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.about p{
+    height: 300px;
+    width: 100%;
+    padding: 0 600px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
