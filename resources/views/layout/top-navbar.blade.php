@@ -1,4 +1,4 @@
-<!-- Navbar -->
+{{-- <!-- Navbar -->
 <nav class="main-header navbar navbar-expand navbar-black navbar-dark">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
@@ -22,7 +22,7 @@
       </li>
     </ul>
 
-    <!-- Right navbar links -->
+    {{-- <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
       <!-- Navbar Search -->
       <li class="nav-item">
@@ -103,9 +103,9 @@
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
         </div>
-      </li>
+      </li> --}}
       <!-- Notifications Dropdown Menu -->
-      <li class="nav-item dropdown">
+      {{-- <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="far fa-bell"></i>
           <span class="badge badge-warning navbar-badge">15</span>
@@ -143,4 +143,4 @@
       </li>
     </ul>
   </nav>
-  <!-- /.navbar -->
+  <!-- /.navbar --> --}} --}}
