@@ -199,13 +199,13 @@ System resources used to make the EasyTour a reality include:
 
 # **5.0 SYSTEM ARCHITECTURE**
 
-<u>Entity Relationship Diagram (ERD)</u>
+<ins>Entity Relationship Diagram (ERD)</ins>
 
 
 ![alt_text](images/image4.png "image_tooltip")
 
 
-<u>Sequence Diagram</u>
+<ins>Sequence Diagram</ins>
 
 
 ![alt_text](images/image9.jpg "image_tooltip")
