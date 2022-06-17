@@ -46,7 +46,7 @@
           <div class="card">
             <img src="{{ asset('dist\home\batu-caves.jpg') }}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Batu Caves</h5>
+              <h5 class="card-title">KLCC</h5>
               <p class="card-text">Batu Caves is a limestone hill that has a series of caves and cave temples in Gombak, Selangor, Malaysia.The town nearby is named after the Batu Caves limestone formation..The cave is one of the most popular Hindu shrines outside India, and is dedicated to Lord Murugan. It is the focal point of the Tamil festival of Thaipusam in Malaysia.</p>
             </div>
           </div>

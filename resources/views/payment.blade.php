@@ -4,7 +4,7 @@
 
 <form action="{{ url('successful') }}" method="get" class="row g-1">
     {!! csrf_field() !!}
-    <fieldset><h1>Payment from</h1></fieldset>
+    <fieldset><h1>Payment Form</h1></fieldset>
     <div class="col-md-9">
       <label for="name" class="form-label">Card Holder Name</label>
       <input type="text" class="form-control" id="name" name="name" placeholder="Card holder name" required>
