@@ -234,7 +234,7 @@
         <div class="card-body">
           <h5 class="card-title">Langkawi</h5>
           <p class="card-text">Langkawi is an archipelago off Malaysia's northwest coast. It's known for its beaches and clear waters. On the main island, also called Langkawi, the SkyCab cable car runs to and from the top of Machincang mountain. From the summit, the SkyBridge curves out above the trees. Trails run through the jungle to Telaga Tujuh, or the Seven Wells Waterfall. Kilim Karst Geoforest Park is home to mangrove forests and caves</p>
-          <h5>3 days 2 nights: 9999RM</h5>
+          <h5>3 days 2 nights: 1599RM</h5>
         </div>
         <div class="card-footer">
             <a class="btn btn-primary" href="booking" role="button">Book Now</a>

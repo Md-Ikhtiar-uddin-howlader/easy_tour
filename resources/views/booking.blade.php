@@ -4,7 +4,7 @@
 
 <form action="{{ url('booking') }}" method="post" class="row g-1">
     {!! csrf_field() !!}
-    <fieldset><h1>Booking form</h1></fieldset>
+    <fieldset><h1>Booking Form</h1></fieldset>
     <div class="col-md-4">
       <label for="fname" class="form-label">First name</label>
       <input type="text" class="form-control" id="fname" name="fname" placeholder="First name" required>
