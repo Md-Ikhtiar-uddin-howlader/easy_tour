@@ -1,64 +1,258 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Group: 3
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Final Report:**
+[Click here](https://docs.google.com/document/d/1RLpS3rmZ1fzMcAyR4bK7gFeXsJw_n3CcugqirT6a3Xk/edit?usp=sharing)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![alt_text](images/image6.png "image_tooltip")
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+**KULLIYYAH OF INFORMATION AND COMMUNICATION TECHNOLOGY**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**SEM 2 2021/2022**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**INFO 3305 SECTION 1**
 
-## Laravel Sponsors
+**WEB APPLICATION DEVELOPMENT**
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+**<span style="text-decoration:underline;">EASYTOUR</span>**
 
-### Premium Partners
+**INSTRUCTOR: MOHD KHAIRUL AZMI BIN HASSAN**
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+**PREPARED BY: GROUP-3**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<table>
+  <tr>
+   <td><strong>NAME</strong>
+   </td>
+   <td><strong>MATRIC NO.</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>MD IKHTIAR UDDIN HOWLADER (G. LEADER)</strong>
+   </td>
+   <td><strong>1834619</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>RASEL AHMED</strong>
+   </td>
+   <td><strong>1836247</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>MUHAMMAD ANIQ HARIS BIN MOHAMMED ZAKI</strong>
+   </td>
+   <td><strong>1920041</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>SAIFUDIN BIN AHMAD GANI</strong>
+   </td>
+   <td><strong>1929989</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>DING ZHILONG</strong>
+   </td>
+   <td><strong>1739827</strong>
+   </td>
+  </tr>
+</table>
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**TABLE OF CONTENT**
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<table>
+  <tr>
+   <td><strong>NO.</strong>
+   </td>
+   <td><strong>TITLE</strong>
+   </td>
+   <td><strong>PAGE NO.</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1.</strong>
+   </td>
+   <td>Project Introduction
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2.</strong>
+   </td>
+   <td>Project Objectives
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3.</strong>
+   </td>
+   <td>Project Resources
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4.</strong>
+   </td>
+   <td>Features & Functionalities
+   </td>
+   <td>4
+   </td>
+  </tr>
+  <tr>
+   <td><strong>5.</strong>
+   </td>
+   <td>System Architecture
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>     ERD Diagram
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>     Sequence Diagram
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td><strong>6.</strong>
+   </td>
+   <td>Final Product
+   </td>
+   <td>6-9
+   </td>
+  </tr>
+  <tr>
+   <td><strong>7.</strong>
+   </td>
+   <td>Conclusion
+   </td>
+   <td>9
+   </td>
+  </tr>
+  <tr>
+   <td><strong>8.</strong>
+   </td>
+   <td>References
+   </td>
+   <td>10
+   </td>
+  </tr>
+</table>
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# **1.0 INTRODUCTION**
+
+The name of our web application is "Easytour". Easytour is an online booking web application in which we will create an online booking system for people to choose many beautiful destinations. In our Easytour system, users will see many places that included with accommodation, transportation, tour guide and much more. Each package will come with an affordable price and users can also change their package.
+
+
+# **2.0 PROJECT OBJECTIVES**
+
+EasyTour aims to provide a variety of services for travelers, tourists, and just about any adventure enthusiasts. The EasyTour packages include transport variants via land, water, and air travel. Don’t know where to start? Well, each travel package option is assigned a tour guide as per the customer’s convenience. Just an added bonus, the multilingual tour guides allow customers to speak comfortably without feeling uneasy. The point of these types of services is simply to make the customers feel like they’re traveling to their second home worry-free. However, the highlight of the EasyTour system lies on the main objective; to showcase highly demanded travel locations at affordable prices, with organized packages for a safe travel experience. All using the PHP web application framework, specifically Laravel.
+
+
+# **3.0 PROJECT RESOURCES**
+
+System resources used to make the EasyTour a reality include:
+
+
+
+1. Laravel MVC + Composer - the skeleton of the web application.
+2. GitHub + Visual Studio Code - the code editor used, alongside the main collaborative platform.
+3. XAMPP/MAMPP - web server solution for the web application.
+4. PHPMyAdmin - intended to handle administration of the databases and web hosting services behind EasyTour.
+
+
+# **4.0 FEATURES & FUNCTIONALITIES**
+
+
+
+* Membership registration New customer registration is easy and takes no time, providing the best experience possible
+* Simple search filters For example, it will provide you with real-time updated destination results based on the boxes you check
+* Predictive search You can provide results as a search category for cities and other hotels within that city, based on the hotel name.
+* Great photo displays The site displays several carefully selected images for pre-viewing, offering realistic displays of rooms and places to cycle through at your own pace.
+* Customer reviews Consumer comments are the most effective sales driving force and a reliable source of information for users. Customers can get the most authentic customer comments and facilitate their own travel arrangements
+* Favorites list If you haven't decided on a destination yet, the favorites list is a very useful tool to remember what briefly caught your eye in the search before.
+* Keep a simple calendar An easy-to-view calendar of arrival and departure dates that pops up from the Start and return fields.
+* Clearly marked price, no hidden fees Clearly marked prices, no additional charges and taxes
+* Use memorable and interesting copywriting Use some good writing to describe local features and highlight local attractions
+* Check out simply Simple and varied payment methods that satisfy most customers.
+
+
+# **5.0 SYSTEM ARCHITECTURE**
+
+<u>Entity Relationship Diagram (ERD)</u>
+
+
+![alt_text](images/image4.png "image_tooltip")
+
+
+<u>Sequence Diagram</u>
+
+
+![alt_text](images/image9.jpg "image_tooltip")
+
+
+
+# **6.0 FINAL PRODUCT**
+
+
+
+![alt_text](images/image5.png "image_tooltip")
+
+
+
+
+![alt_text](images/image1.png "image_tooltip")
+
+
+
+
+![alt_text](images/image8.png "image_tooltip")
+ 
+
+
+
+![alt_text](images/image3.png "image_tooltip")
+
+
+
+
+![alt_text](images/image7.png "image_tooltip")
+
+
+
+
+![alt_text](images/image2.png "image_tooltip")
+
+
+
+# **7.0 CONCLUSION**
+
+In conclusion, our team has been able to carry out an operational travel booking site as shown in multiple figures/images above. The images showcase the different layouts and navigation on the site. Having so much said, since EasyTour is a third-party service, it’ll require a lot of components before going live for the public. There’s so much more to consider; joint ventures & joint partnerships with vendors, social branding, bug fixes, template fixes, and the list goes on and on. Therefore EasyTour will remain as is, in its prototype stage. Clearly, the main objective which was to utilize the Laravel PHP framework along with its MVC model has been fully established - and that accomplishment is the main takeaway here.
+
+
+# **8.0 REFERENCES**
+
+
+
+* Irekasoft（February 2021）Build Laravel CRUD Web App.[https://irekasoft.com/blog/build-laravel-crud-web-app](https://irekasoft.com/blog/build-laravel-crud-web-app)
+* Laravel - Basic Database Usage. https://laravel.com/docs/4.2/database
